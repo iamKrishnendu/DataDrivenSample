@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.ibibo.TestSuite.TC_001_HomePageValidation"/>
+      <class name="com.ibibo.TestSuite.TC_002_SearchFlight"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.ibibo.TestSuite.TC_001_HomePageValidation">
+        <methods>
+          <include name="startTest"/>
+          <include name="validatePageElementsOfHomePage"/>
+          <include name="endTest"/>
+          <include name="luanchApplication"/>
+        </methods>
+      </class> <!-- com.ibibo.TestSuite.TC_001_HomePageValidation -->
+      <class name="com.ibibo.TestSuite.TC_002_SearchFlight">
+        <methods>
+          <include name="startTest"/>
+          <include name="luanchApplication"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.ibibo.TestSuite.TC_002_SearchFlight -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

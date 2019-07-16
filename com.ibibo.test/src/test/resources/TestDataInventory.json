@@ -1,0 +1,26 @@
+{
+	"dataSet":[
+	{
+		"inScope": true,
+		"browserName": "chrome",
+		"browserVersion": "65.0",
+		"osVersion": "Windows 10",
+		"scriptId": "TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder",
+		"testScriptType": "UI",
+		"complexity": "Midium",
+		"priority": "Midium",
+		"automatedBy": "Krishnendu",
+		"testSuite": "Functional",
+			"inputParameters": {
+				"SOURCE":"Bengalore",
+				"DESTINATION":"Mumbai",
+				"DATE":"19-July-2019",
+				"MONTH COUNT":"0",
+				"JOURNEY TYPE":"One way"
+			}
+	}
+	
+	]
+	
+
+}

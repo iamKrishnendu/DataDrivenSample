@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ibibo Test Automation Suite" duration-ms="203764" started-at="2019-07-16T18:35:07Z" finished-at="2019-07-16T18:38:31Z">
+    <groups>
+    </groups>
+    <test name="Ibibo Entire Test Suite" duration-ms="203764" started-at="2019-07-16T18:35:07Z" finished-at="2019-07-16T18:38:31Z">
+      <class name="com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder">
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder@3b81a1bc]" name="startTest" is-config="true" duration-ms="5877" started-at="2019-07-17T00:05:01Z" finished-at="2019-07-17T00:05:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="luanchApplication()[pri:0, instance:com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder@3b81a1bc]" name="luanchApplication" is-config="true" duration-ms="31974" started-at="2019-07-17T00:05:07Z" finished-at="2019-07-17T00:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchApplication -->
+        <test-method status="PASS" signature="validatePageElementsOfHomePage()[pri:0, instance:com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder@3b81a1bc]" name="validatePageElementsOfHomePage" duration-ms="2542" started-at="2019-07-17T00:05:39Z" finished-at="2019-07-17T00:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageElementsOfHomePage -->
+        <test-method status="PASS" signature="searchFlight(java.util.Map)[pri:1, instance:com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder@3b81a1bc]" name="searchFlight" duration-ms="20518" started-at="2019-07-17T00:05:41Z" data-provider="testDataInventory" finished-at="2019-07-17T00:06:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{DATE=19-July-2019, JOURNEY TYPE=One way, osVersion=Windows 10, DESTINATION=Mumbai, browserVersion=65.0, SOURCE=Bengalore, browserName=chrome, MONTH COUNT=0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlight -->
+        <test-method status="PASS" signature="searchFlightInCostDecendingOrder()[pri:3, instance:com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder@3b81a1bc]" name="searchFlightInCostDecendingOrder" duration-ms="144433" started-at="2019-07-17T00:06:02Z" finished-at="2019-07-17T00:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightInCostDecendingOrder -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder@3b81a1bc]" name="endTest" is-config="true" duration-ms="4176" started-at="2019-07-17T00:08:26Z" finished-at="2019-07-17T00:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder -->
+    </test> <!-- Ibibo Entire Test Suite -->
+  </suite> <!-- Ibibo Test Automation Suite -->
+</testng-results>

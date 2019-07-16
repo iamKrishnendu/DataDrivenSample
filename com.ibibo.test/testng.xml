@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Ibibo Test Automation Suite" annotations="JDK" parallel="tests">
+  <test name="Ibibo Entire Test Suite">
+  		<classes>
+  			<class name="com.ibibo.TestSuite.TS_ibibo_validationOfHomePageElements_SearchFlights_PriceOrder"/>
+  		</classes>
+  </test>
+</suite> <!-- Suite -->
